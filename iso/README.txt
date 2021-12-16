@@ -1,5 +1,5 @@
-         Debian GNU/Linux 10.10.0 "Buster" - Official amd64 NETINST
-                               20210619-16:11
+         Debian GNU/Linux 11.1.0 "Bullseye" - Official amd64 NETINST
+                               20211009-10:07
 
                                              (HTML version in README.html)
 
@@ -44,8 +44,8 @@ About This Disc
 
    This disc is labeled
 
-         Debian GNU/Linux 10.10.0 "Buster" - Official amd64 NETINST
-                               20210619-16:11
+         Debian GNU/Linux 11.1.0 "Bullseye" - Official amd64 NETINST
+                               20211009-10:07
 
    It contains programs ("binaries") for `amd64' computers.
 
@@ -53,7 +53,7 @@ About This Disc
    basic system. Any other packages you might want to install will be
    downloaded from the network.
 
-   The Release Notes for "buster" are available on the Debian web site.
+   The Release Notes for "bullseye" are available on the Debian web site.
 
 Installing
 ==========

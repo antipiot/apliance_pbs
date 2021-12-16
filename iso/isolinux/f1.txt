@@ -1,7 +1,7 @@
                   0fWelcome to Debian GNU/Linux!07                                09F107
 
-This is a Debian 10 (buster) installation CD-ROM.
-It was built 20210619-16:11; d-i 20190702+deb10u10.
+This is a Debian 11 (bullseye) installation CD-ROM.
+It was built 20211009-10:07; d-i 20210731+deb11u1.
 
 0fHELP INDEX07
 

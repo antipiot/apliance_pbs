@@ -1,7 +1,0 @@
-Archive: stable
-Origin: Debian
-Label: Debian
-Version: 10.10
-Acquire-By-Hash: yes
-Component: contrib
-Architecture: amd64

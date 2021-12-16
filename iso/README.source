@@ -5,8 +5,8 @@ binary and source packages are archived at
 http://cdimage.debian.org/cdimage/cd-sources/
 
 The following binary/source packages were used:
-isolinux_6.04~git20190206.bf6db5b4+dfsg1-1_all.deb
-syslinux-common_6.04~git20190206.bf6db5b4+dfsg1-1_all.deb
-syslinux_6.04~git20190206.bf6db5b4+dfsg1-1.dsc
+isolinux_6.04~git20190206.bf6db5b4+dfsg1-3_all.deb
+syslinux-common_6.04~git20190206.bf6db5b4+dfsg1-3_all.deb
+syslinux_6.04~git20190206.bf6db5b4+dfsg1-3.dsc
 syslinux_6.04~git20190206.bf6db5b4+dfsg1.orig.tar.xz
-syslinux_6.04~git20190206.bf6db5b4+dfsg1-1.debian.tar.xz
+syslinux_6.04~git20190206.bf6db5b4+dfsg1-3.debian.tar.xz

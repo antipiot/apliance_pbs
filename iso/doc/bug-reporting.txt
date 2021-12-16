@@ -238,11 +238,11 @@ Usertags: <usertags>
    used as the username.
 
    You can set usertags for multiple users at bug submission time by
-   including multiple User pseudo-headers, each Usertags pseudo-header
-   sets the usertags for the last User pseudo-header. This is especially
-   useful for setting usertags for a team with multiple users, setting
-   usertags for multiple teams, or setting the architecture usertags for
-   bugs affecting multiple architectures.
+   including multiple User pseudo-headers; each Usertags pseudo-header
+   sets the usertags for the preceding User pseudo-header. This is
+   especially useful for setting usertags for a team with multiple users,
+   setting usertags for multiple teams, or setting the architecture
+   usertags for bugs affecting multiple architectures.
 User: <first-username>
 Usertags: <first-username usertags>
 User: <second-username>
