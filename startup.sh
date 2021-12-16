@@ -13,7 +13,7 @@ sleep 15
 # Installing PBS
 apt-get update -y
 apt-get install -y --download-only proxmox-backup-server
-apt-get install -y proxmox-backup-server
+# apt-get install -y proxmox-backup-server
 
 echo "- Getting login screen script"
 wget -O /usr/local/bin/issue.sh https://raw.githubusercontent.com/antipiot/apliance_pbs/master/issue.sh
