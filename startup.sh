@@ -3,9 +3,6 @@
 # Jonas Sauge
 # Settings
 
-## Starting PBS Installation
-# Creating environnment and variables
-
 # Sleep to leave time for network
 echo "- Sleeping 15"
 sleep 15
@@ -13,7 +10,6 @@ sleep 15
 # Installing PBS
 echo "postfix postfix/main_mailer_type select No configuration" | debconf-set-selections
 apt-get update -y
-# apt-get install -y --download-only proxmox-backup-server
 apt-get install -y proxmox-backup-server
 
 echo "- Getting login screen script"
