@@ -10,6 +10,10 @@
 echo "- Sleeping 15"
 sleep 15
 
+# Installing PBS
+apt update -y
+apt install -y samba proxmox-backup-server
+
 echo "- Getting login screen script"
 wget -O /usr/local/bin/issue.sh https://raw.githubusercontent.com/antipiot/apliance_pbs/master/issue.sh
 chmod 755 /usr/local/bin/issue.sh

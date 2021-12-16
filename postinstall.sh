@@ -10,9 +10,6 @@ wget https://enterprise.proxmox.com/debian/proxmox-release-bullseye.gpg -O /etc/
 echo "# deb https://enterprise.proxmox.com/debian/pbs bullseye pbs-enterprise" > /etc/apt/sources.list.d/pbs-enterprise.list
 echo "deb http://download.proxmox.com/debian/pbs bullseye pbs-no-subscription" >> /etc/apt/sources.list
 
-# Installing docker
-apt update -y
-apt install -y samba proxmox-backup-server
 
 # Download reboot script and add run from rc.local
 wget -O /root/startup.sh https://raw.githubusercontent.com/antipiot/apliance_pbs/master/startup.sh
