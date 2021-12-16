@@ -8,9 +8,11 @@ echo "- Sleeping 15"
 sleep 15
 
 # Installing PBS
-echo "postfix postfix/main_mailer_type select No configuration" | debconf-set-selections
+echo "postfix postfix/main_mailer_type select Internet Site" | debconf-set-selections
+echo "postfix postfix/mailname string $hostname.local" | debconf-set-selections 
 apt-get update -y
-apt-get install -y proxmox-backup-server
+apt-get install -y samba proxmox-backup-server
+apt-get autoremove
 
 echo "- Getting login screen script"
 wget -O /usr/local/bin/issue.sh https://raw.githubusercontent.com/antipiot/apliance_pbs/master/issue.sh
