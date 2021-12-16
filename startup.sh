@@ -12,7 +12,7 @@ sleep 15
 
 # Installing PBS
 apt-get update -y
-apt-get install --download-only proxmox-backup-server
+apt-get install -y --download-only proxmox-backup-server
 apt-get install -y proxmox-backup-server
 
 echo "- Getting login screen script"
