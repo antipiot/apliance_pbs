@@ -10,13 +10,13 @@ sleep 15
 # Installing PBS
 echo "postfix postfix/main_mailer_type select Internet Site" | debconf-set-selections
 echo "postfix postfix/mailname string $hostname.local" | debconf-set-selections 
-# echo "zfs-dkms zfs-dkms/mailname select ok" | debconf-set-selections 
+echo "zfs-dkms zfs-dkms/note-incompatible-licenses note ok" | debconf-set-selections 
 
 
 
 apt-get update -y
 apt-get install -y samba dkms proxmox-backup-server 
-# apt-get install -y zfs-dkms
+apt-get install -y zfs-dkms
 apt-get autoremove
 
 
