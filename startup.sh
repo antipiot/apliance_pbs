@@ -11,8 +11,11 @@ sleep 15
 echo "postfix postfix/main_mailer_type select Internet Site" | debconf-set-selections
 echo "postfix postfix/mailname string $hostname.local" | debconf-set-selections 
 apt-get update -y
-apt-get install -y samba proxmox-backup-server gdisk hdparm
+apt-get install -y samba dkms proxmox-backup-server 
+apt-get update -y
+apt-get install -y pve-headers-$(uname -r) zfs-dkms
 apt-get autoremove
+
 
 echo "- Getting login screen script"
 wget -O /usr/local/bin/issue.sh https://raw.githubusercontent.com/antipiot/apliance_pbs/master/issue.sh
