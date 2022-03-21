@@ -15,7 +15,7 @@ echo "zfs-dkms zfs-dkms/note-incompatible-licenses note ok" | debconf-set-select
 
 
 apt-get update -y
-apt-get install -y samba dkms proxmox-backup-server 
+apt-get install -y samba dkms proxmox-backup-server gdisk
 apt-get install -y zfs-dkms
 apt-get install -y beep
 apt-get autoremove
